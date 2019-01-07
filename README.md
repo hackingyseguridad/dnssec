@@ -47,7 +47,7 @@ wCypnsPf4USe8kfbYYE0ILWNVpIIlOol2c9VsxTnZqDrunUxHXkkGsbX h5o=
 ;; MSG SIZE  rcvd: 389
 
 
-# kdig nist.gov @8.8.8.8.8 +tls-ca +tls-host=dns.quad9.net
+# kdig nist.gov @8.8.8.8 +tls-ca +tls-host=dns.quad9.net
 
 
 
