@@ -2,7 +2,7 @@
 
 # dig nist.gov @8.8.8.8 +dnssec
 
-# kdig nist.gov @8.8.8.8 +tls-ca +tls-host=dns.quad9.net
+# kdig nist.gov @9.9.9.9 +tls-ca +tls-host=dns.quad9.net
 
 https://www.knot-dns.cz/docs/2.6/html/man_kdig.html
 
