@@ -39,7 +39,6 @@ Como efecto secundario, proporciona mayor privacidad porque el contenido del men
 Es una especificación abierta pero ha  no  sido estandarizado por la IETF. 
 Existen múltiples implementaciones y un conjunto de servidores DNSCrypt disponibles.
 OpenDNS ofrece DNSCrypt 
-También puedes ver una comparación en profundidad de  Tenta .
 
 DNS sobre HTTPS (proxy)
 
