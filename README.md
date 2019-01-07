@@ -54,6 +54,3 @@ En abril de 2017, se envió un borrador al Grupo de trabajo de IETF QUIC sobre D
 DNSCurve
 
 DNSCurve  fue desarrollado en 2010 con el cifrado del resolutor para las comunicaciones autorizadas en mente. No fue estandarizado por el IETF.
-
-
-
