@@ -49,8 +49,7 @@ wCypnsPf4USe8kfbYYE0ILWNVpIIlOol2c9VsxTnZqDrunUxHXkkGsbX h5o=
 
 # kdig nist.gov @8.8.8.8 +tls-ca +tls-host=dns.quad9.net
 
-
-
 https://www.knot-dns.cz/docs/2.6/html/man_kdig.html
+apt-get install knot-dnsutils
 
 https://dnslookup.org/hackingyseguridad.com/
