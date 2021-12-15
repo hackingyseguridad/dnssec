@@ -1,5 +1,7 @@
 # dnssec
 
+Simple script para hacer consultas DNS DNSSEC
+
 # dig nist.gov @8.8.8.8 +dnssec
 
 # kdig nist.gov @9.9.9.9 +tls-ca +tls-host=dns.quad9.net
