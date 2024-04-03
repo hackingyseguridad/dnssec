@@ -56,7 +56,7 @@ DNSCurve
 
 DNSCurve  fue desarrollado en 2010 con el cifrado del resolutor para las comunicaciones autorizadas en mente. No fue estandarizado por el IETF.
 
-ATAQUES A LOS DNS
+# ATAQUES A LOS DNS
 
 PARTE 1
 
