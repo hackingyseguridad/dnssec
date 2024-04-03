@@ -66,6 +66,7 @@ PARTE 1
 https://raw.githubusercontent.com/hackingyseguridad/dnssec/master/doh_test.sh
 
 2º.-	Nuevos ataques: KeyTrap DNSSEC (CVE-2023-50387) permitió que un solo paquete DNS denegara el servicio al agotar los recursos de la CPU de las máquinas que ejecutaban servicios DNS validados por DNSSEC, como los proporcionados por Google y Cloudflare.
+Afecta a los validadores DNS, que son los servidores encargados de verificar la autenticidad de las respuestas DNS para garantizar la seguridad e integridad del sistema de nombres de dominio. Se envia una consulta  que incluye un nombre de dominio ficticio y una gran cantidad de claves y firmas DNSSEC falsas. El validador DNS intenta verificar la respuesta a la consulta. Para ello, debe probar cada combinación posible de claves y firmas, lo que puede ser un proceso computacionalmente costoso.
 
 3º.- 	Nuevos ataques : NSEC3-encloser DNSSEC CVE-2023-50868 ), también se presentó como un riesgo de agotamiento de la CPU.
 
