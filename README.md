@@ -55,3 +55,38 @@ En abril de 2017, se envió un borrador al Grupo de trabajo de IETF QUIC sobre D
 DNSCurve
 
 DNSCurve  fue desarrollado en 2010 con el cifrado del resolutor para las comunicaciones autorizadas en mente. No fue estandarizado por el IETF.
+
+ATAQUES A LOS DNS
+
+PARTE 1
+
+1º.-	Nuevos  ataques a los DNS;  DoH y DoT, por https 
+https://raw.githubusercontent.com/hackingyseguridad/dnssec/master/doh_test.sh
+
+2º.-	Nuevos ataques: KeyTrap DNSSEC (CVE-2023-50387) permitió que un solo paquete DNS denegara el servicio al agotar los recursos de la CPU de las máquinas que ejecutaban servicios DNS validados por DNSSEC, como los proporcionados por Google y Cloudflare.
+
+3º.- 	Nuevos ataques : NSEC3-encloser DNSSEC CVE-2023-50868 ), también se presentó como un riesgo de agotamiento de la CPU.
+
+4º.-	Nuevos ataues  CPE basado en botnet, por número de solicitudes. Ataque de subdominio aleatorio, ataque a los DNS autoritativos. tambien llamado ataque de bloqueo de dominio.
+Ataque DNS con peticiones a dominios, subdominios/ fqdn que no existen: Una inundación de baja velocidad con 'prueba de inexistencia' puede agotar la CPU del resolver DNS, en algunas implementaciones; Paper pdf : https://arxiv.org/pdf/2403.15233.pdf
+
+5º.- 	Ataques de inundación de paquetes a los DNS, Ataques de denegación de servicio DDoS/Dos a los DNS
+https://github.com/hackingyseguridad/udpflood
+
+PARTE 2
+
+6º.- 	Ataque de amplificación de DNS, servicios/puertos UDP que permiten respuestas amplificadas  BAF y reflexión con suplantación de origen. Ataques DNSSec, tamaño de ventana y respuesta
+
+7º.-	Ataque de redirección de DNS
+
+8º.-    Ataque de túnel DNS, exfiltración de datos en pequeños fragmentos, a través en los paquetes UDP/53 de solicitudes DNS
+
+9º.- 	Ataque de dominio fantasma
+
+10º.- 	Ataque de suplantación de DNS
+
+
+
+
+
+
