@@ -1,4 +1,4 @@
-# DNS
+# Infraestructura DNS diagrama:
 
 <img style="float:left" alt="Infraestructura DNS" src="https://github.com/hackingyseguridad/dnssec/blob/master/dns.png">
 
