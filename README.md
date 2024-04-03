@@ -6,6 +6,12 @@ Simple script para hacer consultas DNS DNSSEC
 
 # dig nist.gov @8.8.8.8 +dnssec
 
+DNS Seguros:
+
+DNS sobre TLS (DoT)
+
+RFC7858 especificó DNS-over-TLS como un protocolo de seguimiento de estándares en mayo de 2016 con una asignación de puerto de 853 de IANA. Hay un trabajo activo en esta área .
+
 # kdig nist.gov @9.9.9.9 +tls-ca +tls-host=dns.quad9.net
 
 https://www.knot-dns.cz/docs/2.6/html/man_kdig.html
@@ -13,13 +19,6 @@ https://www.knot-dns.cz/docs/2.6/html/man_kdig.html
 Instalar kdig; $apt-get install knot-dnsutils
 
 https://dnslookup.org/hackingyseguridad.com/
-
-
-DNS Seguros:
-
-DNS sobre TLS (DoT)
-
-RFC7858 especificó DNS-over-TLS como un protocolo de seguimiento de estándares en mayo de 2016 con una asignación de puerto de 853 de IANA. Hay un trabajo activo en esta área .
 
 DNS sobre HTTP (DoH)
 
