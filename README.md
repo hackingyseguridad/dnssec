@@ -73,8 +73,7 @@ Afecta a los validadores DNS, que son los servidores encargados de verificar la 
 
 3º.- 	Nuevos ataques : NSEC3-encloser DNSSEC CVE-2023-50868 ), también se presentó como un riesgo de agotamiento de la CPU. afecta las implementaciones de DNSSEC en versiones del software BIND 9.x anteriores a la 9.11.37. Una consulta puede causar un consumo excesivo de CPU en el resolvedor DNS y hacer que vaya mas lento o que se bloquee. La solución es actualizar.
 
-4º.-	Nuevos ataues  CPE basado en botnet, por número de solicitudes. Ataque de subdominio aleatorio, ataque a los DNS autoritativos. tambien llamado ataque de bloqueo de dominio.
-Ataque DNS con peticiones a dominios, subdominios/ fqdn que no existen: Una inundación de baja velocidad con 'prueba de inexistencia' puede agotar la CPU del resolver DNS, en algunas implementaciones; Paper pdf : https://arxiv.org/pdf/2403.15233.pdf
+4º.-	Nuevos ataues  CPE basado en botnet, por número de solicitudes. Ataque de subdominio aleatorio, ataque a los DNS autoritativos. tambien llamado ataque de bloqueo de dominio.  https://github.com/hackingyseguridad/watertorture son ataques que consisten en enviar consultas a DNS con peticiones de dominios, subdominios/ fqdn que no existen: Una inundación de baja velocidad con 'prueba de inexistencia' puede agotar la CPU del resolver DNS, en algunas implementaciones; Paper pdf : https://arxiv.org/pdf/2403.15233.pdf
 
 5º.- 	Ataques de inundación de paquetes a los DNS, Ataques de denegación de servicio DDoS/Dos a los DNS
 https://github.com/hackingyseguridad/udpflood
