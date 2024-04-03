@@ -2,11 +2,13 @@
 
 <img style="float:left" alt="Infraestructura DNS" src="https://github.com/hackingyseguridad/dnssec/blob/master/dns.png">
 
+DNS Seguros:
+
+DNSSEC
+
 Simple script para hacer consultas DNS DNSSEC
 
 # dig nist.gov @8.8.8.8 +dnssec
-
-DNS Seguros:
 
 DNS sobre TLS (DoT)
 
