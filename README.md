@@ -88,6 +88,7 @@ Secuestro de DNS o DNS Hijacking,  DNS, el atacante intercepta las consultas DNS
 8º.-    Ataque de túnel DNS, exfiltración de datos en pequeños fragmentos, a través en los paquetes UDP/53 de solicitudes DNS
 
 9º.- 	Ataque de dominio fantasma
+El atacante configura un servidor DNS falso que responde a las consultas sobre el dominio fantasma con la dirección IP de un sitio web malicioso
 
 10º.- 	Ataque de suplantación de DNS
 
