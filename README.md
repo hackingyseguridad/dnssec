@@ -57,7 +57,7 @@ En abril de 2017, se envió un borrador al Grupo de trabajo de IETF QUIC sobre D
 
 # DNSCurve
 
-DNSCurve  fue desarrollado en 2010 con el cifrado del resolutor para las comunicaciones autorizadas en mente. No fue estandarizado por el IETF.
+Utiliza criptografía de curva elíptica Curve25519 para establecer la identidad de los servidores autorizados. Cifra las consultas y respuestas DNS. Las claves públicas de los servidores autorizados se almacenan en los registros NS, lo que permite a los resolvedores recursivos saber si un servidor admite DNSCurve. DNSCurve  fue desarrollado en 2010 con el cifrado del resolutor para las comunicaciones autorizadas en mente. No fue estandarizado por el IETF.
 
 # 2.- ATAQUES A LOS DNS
 
