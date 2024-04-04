@@ -8,8 +8,8 @@ La infraestructura del DNS se compone de varios elementos:
 
 1. Servidores DNS:
 
-Servidor DNS recursivo: Es el primer punto de contacto para un dispositivo que busca una dirección IP. No tiene la información de todos los dominios, pero sí sabe dónde encontrarla.
-Servidor DNS autoritativo: Almacena la información de zona para un dominio específico, incluyendo la relación entre nombres de dominio y direcciones IP.
+IP vip del bajanceador y servidor DNS recursivo: Servidor DNS autoritativo: Almacena la información de zona para un dominio específico, incluyendo la relación entre nombres de dominio y direcciones IP.
+
 2. Jerarquía de nombres de dominio:
 
 Dominio de nivel superior (TLD): Es la parte final del nombre de dominio, como ".com" o ".es".
