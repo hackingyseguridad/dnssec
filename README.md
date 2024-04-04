@@ -13,6 +13,10 @@ Dominio de nivel superior (TLD): Es la parte final del nombre de dominio, como "
 <img style="float:left" alt="Infraestructura DNS" src="https://github.com/hackingyseguridad/dnssec/blob/master/dns.png">
 (1) Un dispositivo escribe un nombre de dominio en su navegador web, o envia una solicitud desde consola con dig, el dispositivo envía una solicitud al servidor DNS resolver con recursion (2). El servidor DNS recursivo busca la dirección IP del dominio en su granja de DNS caché (3) o contacta a traves de los DNS root (4) con el servidor DNS TLD (5) y autoritativo (6)., si hay cifrado comprueba con la  PKI (7)  El servidor DNS autoritativo responde con la dirección IP del dominio. El servidor (2) DNS resolver recursivo envía la dirección IP al dispositivo origen (1)
 
+Las consultas y repsuestas DNS por defecto va sin cifrar, por lo que cualquiera, o si pasa por una red inseguroa, con tecnicas de MiTM Man in The Middle, puede inteceptar y espiar las consultas y respuestas, asi como modidicar las repuestas o intentar reenviar respuestas manipuladas que apunten a otro IP distinta, al utilizar protclo UDP, no esta orientado a conexion no hay un sincronismo como en TCP.  Ademas UDP, si el proveedor de internet no tiene implementadas medidas BCP31, es facil de modificar y supantar en la IP origen en las cabeceras de los paquetes UDP. El DNS autoritativo utiliza ademas de UDP,  TCP para poder gestionar respuestas de  tamaño mayor a 512 Bytes, lo que tambien ocurre con DNSSEC, donde se permite tamaños de respuestas grandes ,de 4096 Bytes,
+
+Para evitar la suplantacion de la IP origen, la interceptación y el envenenamiento de respuestas con resputas DNS moficiadas, existen varios modos DNS con cifrado,  más seguros.
+
 # 1.- DNS Seguros:
 
 # DNSSEC
