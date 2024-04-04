@@ -12,12 +12,7 @@ Dominio de segundo nivel (SLD): Es la parte del nombre de dominio que precede al
 Nombre de host: Es la parte del nombre de dominio que identifica un equipo específico dentro de un dominio, como "www" en "www.google.com".
 3. Proceso de resolución de nombres:
 <img style="float:left" alt="Infraestructura DNS" src="https://github.com/hackingyseguridad/dnssec/blob/master/dns.png">
-Un dispositivo escribe un nombre de dominio en su navegador web.
-El dispositivo envía una solicitud al servidor DNS recursivo.
-El servidor DNS recursivo busca la dirección IP del dominio en su caché o contacta a un servidor DNS autoritativo.
-El servidor DNS autoritativo responde con la dirección IP del dominio.
-El servidor DNS recursivo envía la dirección IP al dispositivo.
-El dispositivo abre una conexión con el servidor web en la dirección IP proporcionada.
+(1) Un dispositivo escribe un nombre de dominio en su navegador web, o envia una solicitud desde consola con dig, el dispositivo envía una solicitud al servidor DNS resolver con recursion (2). El servidor DNS recursivo busca la dirección IP del dominio en su granja de DNS caché (3) o contacta a traves de los DNS root (4) con el servidor DNS TLD (5) y autoritativo (6)., si hay cifrado comprueba con la  PKI (7)  El servidor DNS autoritativo responde con la dirección IP del dominio. El servidor (2) DNS resolver recursivo envía la dirección IP al dispositivo origen (1)
 
 # 1.- DNS Seguros:
 
