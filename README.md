@@ -39,16 +39,12 @@ https://raw.githubusercontent.com/hackingyseguridad/dnssec/master/doh_test.sh
 
 # DNS sobre DTLS
 
-RFC8094  especificó DNS-over-DTLS como un Estándar Experimental en febrero de 2017. Según nuestro conocimiento, no hay implementaciones de DNS-over-DTLS planificadas o en progreso.
-Un problema con DNS sobre DTLS es que aún debe truncar las respuestas de DNS si el tamaño de la respuesta es demasiado grande (al igual que lo hace UDP) y, por lo tanto, no puede ser una solución independiente para la privacidad sin un mecanismo de respaldo (como DNS-over- TLS) también está disponible
+RFC8094  especificó DNS-over-DTLS como un Estándar Experimental en febrero de 2017. Según nuestro conocimiento, no hay implementaciones de DNS-over-DTLS planificadas o en progreso. Un problema con DNS sobre DTLS es que aún debe truncar las respuestas de DNS si el tamaño de la respuesta es demasiado grande (al igual que lo hace UDP) y, por lo tanto, no puede ser una solución independiente para la privacidad sin un mecanismo de respaldo (como DNS-over- TLS) también está disponible
 
 # DNSCrypt
 
-DNSCrypt  es un método para autenticar las comunicaciones entre un cliente DNS y un sistema de resolución de DNS que existe desde 2011. Previene la falsificación de DNS. Utiliza firmas criptográficas para verificar que las respuestas se originen en el sistema de resolución de DNS elegido y que no se hayan manipulado (los mensajes aún se envían a través de UDP). 
-Como efecto secundario, proporciona mayor privacidad porque el contenido del mensaje DNS está cifrado.  
-Es una especificación abierta pero ha  no  sido estandarizado por la IETF. 
-Existen múltiples implementaciones y un conjunto de servidores DNSCrypt disponibles.
-OpenDNS ofrece DNSCrypt 
+DNSCrypt  es un método para autenticar las comunicaciones entre un cliente DNS y un sistema de resolución de DNS que existe desde 2011. Previene la falsificación de DNS. Utiliza firmas criptográficas para verificar que las respuestas se originen en el sistema de resolución de DNS elegido y que no se hayan manipulado (los mensajes aún se envían a través de UDP).  Como efecto secundario, proporciona mayor privacidad porque el contenido del mensaje DNS está cifrado.  
+Es una especificación abierta pero ha  no  sido estandarizado por la IETF. Existen múltiples implementaciones y un conjunto de servidores DNSCrypt disponibles. OpenDNS ofrece DNSCrypt 
 
 # DNS sobre HTTPS (proxy)
 
@@ -85,12 +81,13 @@ https://github.com/hackingyseguridad/udpflood
 7º.-	Ataque de redirección de DNS
 Secuestro de DNS o DNS Hijacking,  DNS, el atacante intercepta las consultas DNS y las modifica para que apunten a una dirección IP diferente a la legítima. De esta manera, cuando la víctima intenta acceder a un sitio web legítimo, termina siendo redirigida a un sitio web malicioso controlado por el atacante.
 
-8º.-    Ataque de túnel DNS, exfiltración de datos en pequeños fragmentos, a través en los paquetes UDP/53 de solicitudes DNS
+8º.-  Ataque de túnel DNS, exfiltración de datos en pequeños fragmentos, a través en los paquetes UDP/53 de solicitudes DNS
 
 9º.- 	Ataque de dominio fantasma
 El atacante configura un servidor DNS falso que responde a las consultas sobre el dominio fantasma con la dirección IP de un sitio web malicioso
 
 10º.- 	Ataque de suplantación de DNS
+Un ataque de suplantación de DNS, también conocido como envenenamiento de caché de DNS, es un tipo de ataque cibernético que intercepta y modifica las respuestas a las consultas del Sistema de nombres de dominio (DNS).
 
 
 
