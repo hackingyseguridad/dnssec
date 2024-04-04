@@ -83,6 +83,7 @@ https://github.com/hackingyseguridad/udpflood
 <img style="float:left" alt="Ataque DDoS DNS reflexion y amplificacion" src="https://github.com/hackingyseguridad/dnssec/blob/master/amplificacion.png">
 
 7º.-	Ataque de redirección de DNS
+Secuestro de DNS o DNS Hijacking,  DNS, el atacante intercepta las consultas DNS y las modifica para que apunten a una dirección IP diferente a la legítima. De esta manera, cuando la víctima intenta acceder a un sitio web legítimo, termina siendo redirigida a un sitio web malicioso controlado por el atacante.
 
 8º.-    Ataque de túnel DNS, exfiltración de datos en pequeños fragmentos, a través en los paquetes UDP/53 de solicitudes DNS
 
