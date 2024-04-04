@@ -1,6 +1,6 @@
 # Infraestructura DNS:
 
-El servidor de nombres de dominio (DNS) funciona traduciendo nombres de dominio fáciles de recordar (como "www.hackingyseguridad.com") en direcciones IP numéricas que las máquinas pueden entender (como "185.66.41.219") y viversa de IP a fqdn con la resolucion inversa.
+El servidor de nombres de dominio (DNS) funciona traduciendo nombres de dominio fqdn (como "www.hackingyseguridad.com") en direcciones IP numéricas que las máquinas pueden entender (como "185.66.41.219") y viversa de IP a fqdn con la resolucion inversa.
 
 La infraestructura del DNS se compone de varios elementos:
 1. Servidores DNS:
