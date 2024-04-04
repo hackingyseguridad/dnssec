@@ -2,7 +2,7 @@
 
 <img style="float:left" alt="Infraestructura DNS" src="https://github.com/hackingyseguridad/dnssec/blob/master/dns.png">
 
-El Sistema de Nombres de Dominio (DNS) funciona como una agenda telefónica para Internet, traduciendo nombres de dominio fáciles de recordar (como "www.google.com") en direcciones IP numéricas que las máquinas pueden entender (como "172.217.14.238").
+El servidor de nombres de dominio (DNS) funciona traduciendo nombres de dominio fáciles de recordar (como "www.hackingyseguridad.com") en direcciones IP numéricas que las máquinas pueden entender (como "185.66.41.219") y viversa de IP a fqdn con la resolucion inversa.
 
 La infraestructura del DNS se compone de varios elementos:
 
