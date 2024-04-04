@@ -2,6 +2,28 @@
 
 <img style="float:left" alt="Infraestructura DNS" src="https://github.com/hackingyseguridad/dnssec/blob/master/dns.png">
 
+El Sistema de Nombres de Dominio (DNS) funciona como una agenda telefónica para Internet, traduciendo nombres de dominio fáciles de recordar (como "www.google.com") en direcciones IP numéricas que las máquinas pueden entender (como "172.217.14.238").
+
+La infraestructura del DNS se compone de varios elementos:
+
+1. Servidores DNS:
+
+Servidor DNS recursivo: Es el primer punto de contacto para un dispositivo que busca una dirección IP. No tiene la información de todos los dominios, pero sí sabe dónde encontrarla.
+Servidor DNS autoritativo: Almacena la información de zona para un dominio específico, incluyendo la relación entre nombres de dominio y direcciones IP.
+2. Jerarquía de nombres de dominio:
+
+Dominio de nivel superior (TLD): Es la parte final del nombre de dominio, como ".com" o ".es".
+Dominio de segundo nivel (SLD): Es la parte del nombre de dominio que precede al TLD, como "google" en "www.google.com".
+Nombre de host: Es la parte del nombre de dominio que identifica un equipo específico dentro de un dominio, como "www" en "www.google.com".
+3. Proceso de resolución de nombres:
+
+Un dispositivo escribe un nombre de dominio en su navegador web.
+El dispositivo envía una solicitud al servidor DNS recursivo.
+El servidor DNS recursivo busca la dirección IP del dominio en su caché o contacta a un servidor DNS autoritativo.
+El servidor DNS autoritativo responde con la dirección IP del dominio.
+El servidor DNS recursivo envía la dirección IP al dispositivo.
+El dispositivo abre una conexión con el servidor web en la dirección IP proporcionada.
+
 # 1.- DNS Seguros:
 
 # DNSSEC
