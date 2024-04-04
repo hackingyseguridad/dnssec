@@ -82,6 +82,8 @@ PARTE 2
 
 6º.- 	Ataque de amplificación de DNS, servicios/puertos UDP que permiten respuestas amplificadas  BAF y reflexión con suplantación de origen. Ataques DNSSec, tamaño de ventana y respuesta
 
+<img style="float:left" alt="Ataque DDoS DNS reflexion y amplificacion" src="https://github.com/hackingyseguridad/dnssec/blob/master/amplificacion.png">
+
 7º.-	Ataque de redirección de DNS
 
 8º.-    Ataque de túnel DNS, exfiltración de datos en pequeños fragmentos, a través en los paquetes UDP/53 de solicitudes DNS
