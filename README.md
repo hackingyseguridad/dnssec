@@ -5,7 +5,7 @@ El servidor de nombres de dominio (DNS) funciona traduciendo nombres de dominio 
 1. La infraestructura del DNS se compone de varios elementos: Servidores DNS: IP VIP del balanceador y servidores DNS resolver recursivos; Granja de servidores DNS cache, Servidor DNS autoritativo que es donde se almacena la información de zona para un dominio específico, incluyendo la relación entre nombres de dominio y direcciones IP,  13s ervidores DNS root, Servidor DNS TLD por ej para dominios que cuelgan de la zona .com
 
 2. Jerarquía de nombres de dominio:
-Dominio de nivel superior (TLD): La zona es la parte final del nombre de dominio, como ".com" o ".es". Dominio de segundo nivel (SLD): Es la parte del nombre de dominio que precede al TLD, como "hackingyseguridad" en "www.hackingyseguridad.com". Nombre de host: Es la parte del nombre de dominio que identifica un equipo específico dentro de un dominio, como "www" en "www.hackingyseguridad.com".
+Servidores root https://es.wikipedia.org/wiki/Servidor_raiz, Dominio de nivel superior (TLD): La zona es la parte final del nombre de dominio, como ".com" o ".es". Dominio de segundo nivel (SLD): Es la parte del nombre de dominio que precede al TLD, como "hackingyseguridad" en "www.hackingyseguridad.com". Nombre de host: Es la parte del nombre de dominio que identifica un equipo específico dentro de un dominio, como "www" en "www.hackingyseguridad.com".
 
 Servidores DNS root, zona: .
 Servidores DNS TLD , zona: .com
