@@ -7,7 +7,11 @@ El servidor de nombres de dominio (DNS) funciona traduciendo nombres de dominio 
 2. Jerarquía de nombres de dominio:
 Dominio de nivel superior (TLD): La zona es la parte final del nombre de dominio, como ".com" o ".es". Dominio de segundo nivel (SLD): Es la parte del nombre de dominio que precede al TLD, como "hackingyseguridad" en "www.hackingyseguridad.com". Nombre de host: Es la parte del nombre de dominio que identifica un equipo específico dentro de un dominio, como "www" en "www.hackingyseguridad.com".
 
-3. Proceso de resolución de nombres:
+Servidores DNS root, zona: .
+Servidores DNS TLD , zona: .com
+Servidores DNS Auth, zona: hackingyseguridad, www, ftp, mail ... registros tipo A, cname, mx, AAAA, ..
+
+4. Proceso de resolución de nombres:
 (1) En dispositivo p.ej. escribe un fqdn nombre de dominio en su navegador web o envia una solicitud desde consola linux con el comando dig fqdn, el dispositivo envía una solicitud al servidor DNS resolver con recursion (2). El servidor DNS recursivo busca la dirección IP del dominio en su granja de DNS caché (3) o contacta a traves de los DNS root (4) con el servidor DNS de la zona TLD (5) y autoritativo (6)., si hay cifrado comprueba con la  PKI (7)  El servidor DNS autoritativo responde con la dirección IP del dominio. El servidor (2) DNS resolver recursivo envía la dirección IP al dispositivo origen (1)
 <img style="float:left" alt="Infraestructura DNS" src="https://github.com/hackingyseguridad/dnssec/blob/master/dns.png">
 
