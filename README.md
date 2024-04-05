@@ -88,7 +88,7 @@ Secuestro de DNS o DNS Hijacking,  DNS, el atacante intercepta las consultas DNS
 El atacante configura un servidor DNS falso que responde a las consultas sobre el dominio fantasma con la dirección IP de un sitio web malicioso
 
 10º.- 	Ataque de suplantación de DNS
-Un ataque de suplantación de DNS, también conocido como envenenamiento de caché de DNS, es un tipo de ataque cibernético que intercepta y modifica las respuestas a las consultas del Sistema de nombres de dominio (DNS).
+también conocido como envenenamiento de caché de DNS, es un tipo de ataque cibernético que intercepta y modifica las respuestas a las consultas del Sistema de nombres de dominio (DNS).
 
 
 
