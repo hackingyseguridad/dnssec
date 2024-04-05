@@ -62,7 +62,7 @@ Utiliza criptografía de curva elíptica Curve25519 para establecer la identidad
 
 # 2.- ATAQUES A LOS DNS
 
-1º.-	Nuevos  ataques a los DNS;  DoH y DoT, por https son las mismas que a las API
+1º.-	Nuevos  ataques a los DNS;  DoH por https son los mismos que a las API s
 https://raw.githubusercontent.com/hackingyseguridad/dnssec/master/doh_test.sh
 
 2º.-	Nuevos ataques: KeyTrap DNSSEC (CVE-2023-50387) permitió que un solo paquete DNS denegara el servicio al agotar los recursos de la CPU de las máquinas que ejecutaban servicios DNS validados por DNSSEC, como los proporcionados por Google y Cloudflare.
