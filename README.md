@@ -36,8 +36,7 @@ https://dnslookup.org/hackingyseguridad.com/
 # DNS sobre HTTP (DoH) 
 
 RFC8484 especifica DNS sobre HTTPS como protocolo de seguimiento de estándares en octubre de 2018.  
-Hay varias implementaciones. Con DoH es posible mezclar tráfico DNS y HTTP en la misma conexión del puerto 443 y dificultar el bloqueo del DNS cifrado. 
-https://raw.githubusercontent.com/hackingyseguridad/dnssec/master/doh_test.sh
+Hay varias implementaciones. Con DoH es posible mezclar tráfico DNS y HTTP en la misma conexión del puerto 443 y dificultar el bloqueo del DNS cifrado. https://raw.githubusercontent.com/hackingyseguridad/dnssec/master/doh_test.sh   https://github.com/hackingyseguridad/apiaudit
 
 # DNS sobre DTLS
 
