@@ -19,7 +19,9 @@ Para evitar la suplantacion de la IP origen, la interceptación o el envenenamie
 
 # DNSSEC
 
-cifrado y control de integridad en las respuestas DNSSEC
+DNSSEC es una capa de extensiones que se pone sobre DNS, impedira el spoofing de datos
+con los nuevos regostros, DNSKEY/RRSIG/NSEC, proporciona mecanismos para delegar confianza en ciertas claves publicas (cadenas de confianza)
+Nuevos registros DS, nuevos Flags AD, CD. La firma digital es un conjunto de registros que  se devuelve en la respuesta en un registro RRSIG del cifrado y control de integridad en las respuestas DNSSEC
 Simple script para hacer consultas DNS DNSSEC
 dig nist.gov @8.8.8.8 +dnssec
 
